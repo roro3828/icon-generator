@@ -28,6 +28,7 @@ export default class UUID{
      * @param uuid UUID
      */
     constructor(uuid:string);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     constructor(any?:any){
         if(typeof any==="undefined"){
             any=v4();
