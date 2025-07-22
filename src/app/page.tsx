@@ -15,7 +15,7 @@ export default function Home() {
     const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setUUID(event.target.value)
     }
-    const handleRegenerate = (event: React.MouseEventHandler<HTMLInputElement>) => {
+    const handleRegenerate = () => {
         setUUID(new UUID().toString());
     }
 
